@@ -52,8 +52,8 @@ Satu Data Padjadjaran (SDP) merupakan sebuah platform berbasis website yang beri
 > ### Satu Data Padjadjaran is now online [Here](https://satudatapadjadjaran.site/)
 
 ## Credits
-> Saddam Habibi Utomo <br>
-> 140810190017 <br>
+> Cut Fazira Zuhra <br>
+> 140810190010 <br>
 > Universitas Padjadjaran
 
 ## License
