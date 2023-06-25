@@ -159,24 +159,24 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <!-- Form Feedback -->
-                        <form action="{{route('store.feedback')}}" method="POST" id="feedbackForm" novalidate="novalidate">
+                        <form action="{{route('store.feedback')}}" method="POST" id="feedbackForm">
                             @csrf
                             <div class="modal-body">
                                 <div class="mb-2">
                                     <label for="feedbackFormName" class="form-label">Nama</label>
-                                    <input class="form-control" type="text" value="" name="name" id="feedbackFormName">
+                                    <input class="form-control" type="text" value="" name="name" id="feedbackFormName" required>
                                 </div>
                                 <div class="mb-2">
                                     <label for="feedbackFormEmail" class="form-label">Email</label>
-                                    <input class="form-control" type="email" value="" name="email" id="feedbackFormEmail">
+                                    <input class="form-control" type="email" value="" name="email" id="feedbackFormEmail" required>
                                 </div>
                                 <div class="mb-2">
                                     <label for="feedbackFormSubject" class="form-label">Subjek Pesan</label>
-                                    <input class="form-control" type="text" name="subject" id="feedbackFormSubject">
+                                    <input class="form-control" type="text" name="subject" id="feedbackFormSubject" required>
                                 </div>
                                 <div>
                                     <label for="feedbackFormMessage" class="form-label">Isi Pesan</label>
-                                    <textarea class="form-control" name="message" id="feedbackFormMessage" rows="3"></textarea>
+                                    <textarea class="form-control" name="message" id="feedbackFormMessage" rows="3" required></textarea>
                                 </div>
                             </div>
                             <div class="modal-footer">
