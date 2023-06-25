@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/saddamsevena/SatuDataPadjadjaran/" target="_blank"><img src="https://i.ibb.co/QvcVDPS/sdp.png" width="400"></a></p>
+<p align="center"><a href="https://github.com/Fazira01/PortalDataPadjadjaran" target="_blank"><img src="https://i.ibb.co/QvcVDPS/sdp.png" width="400"></a></p>
 
 <p align="center">
 
@@ -27,7 +27,7 @@ Satu Data Padjadjaran (SDP) merupakan sebuah platform berbasis website yang beri
 
 1. Clone Project
     ```sh 
-        git clone https://github.com/saddamsevena/SatuDataPadjadjaran/
+        git clone https://github.com/Fazira01/PortalDataPadjadjaran/
     ```
 2. Install Composer on Project Directories
     ```sh 
@@ -49,7 +49,7 @@ Satu Data Padjadjaran (SDP) merupakan sebuah platform berbasis website yang beri
     ```sh 
         php artisan serve
     ```
-> ### Satu Data Padjadjaran is now online [Here](https://satudatapadjadjaran.site/)
+> ### Satu Data Padjadjaran is now online [Here](https://www.pd-unpad.site/)
 
 ## Credits
 > Cut Fazira Zuhra <br>

@@ -54,7 +54,7 @@
                                     @if($data->image == NULL)
                                         <img src="{{ asset('img/no-image.png') }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @else
-                                        <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
+                                        <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @endif
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title text-center">{{$data->nama}}</h5>
@@ -70,7 +70,7 @@
                                         <div class="btn-toolbar justify-content-center mt-auto" role="toolbar" aria-label="Toolbar with button groups">
                                             <div class="btn-group" role="group" aria-label="First group">
                                                 <button class="btn btn-outline-primary"><a href="{{$data->tautan}}" class="nav-link">Tautan</a></button>
-                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>    
+                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
                                             </div>
                                         </div>
                                     </div>
@@ -94,7 +94,7 @@
                                     @if($data->image == NULL)
                                         <img src="{{ asset('img/no-image.png') }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @else
-                                        <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
+                                        <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @endif
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title text-center">{{$data->nama}}</h5>
@@ -110,7 +110,7 @@
                                         <div class="btn-toolbar justify-content-center mt-auto" role="toolbar" aria-label="Toolbar with button groups">
                                             <div class="btn-group" role="group" aria-label="First group">
                                                 <button class="btn btn-outline-primary"><a href="{{$data->tautan}}" class="nav-link">Tautan</a></button>
-                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>    
+                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                     @if($data->image == NULL)
                                         <img src="{{ asset('img/no-image.png') }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @else
-                                        <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
+                                        <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @endif
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title text-center">{{$data->nama}}</h5>
@@ -150,7 +150,7 @@
                                         <div class="btn-toolbar justify-content-center mt-auto" role="toolbar" aria-label="Toolbar with button groups">
                                             <div class="btn-group" role="group" aria-label="First group">
                                                 <button class="btn btn-outline-primary"><a href="{{$data->tautan}}" class="nav-link">Tautan</a></button>
-                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>    
+                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
                                             </div>
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@
                                     @if($data->image == NULL)
                                         <img src="{{ asset('img/no-image.png') }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @else
-                                        <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
+                                        <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @endif
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title text-center">{{$data->nama}}</h5>
@@ -190,7 +190,7 @@
                                         <div class="btn-toolbar justify-content-center mt-auto" role="toolbar" aria-label="Toolbar with button groups">
                                             <div class="btn-group" role="group" aria-label="First group">
                                                 <button class="btn btn-outline-primary"><a href="{{$data->tautan}}" class="nav-link">Tautan</a></button>
-                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>    
+                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
                                             </div>
                                         </div>
                                     </div>
@@ -214,7 +214,7 @@
                                     @if($data->image == NULL)
                                         <img src="{{ asset('img/no-image.png') }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @else
-                                        <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
+                                        <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @endif
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title text-center">{{$data->nama}}</h5>
@@ -230,7 +230,7 @@
                                         <div class="btn-toolbar justify-content-center mt-auto" role="toolbar" aria-label="Toolbar with button groups">
                                             <div class="btn-group" role="group" aria-label="First group">
                                                 <button class="btn btn-outline-primary"><a href="{{$data->tautan}}" class="nav-link">Tautan</a></button>
-                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>    
+                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
                                             </div>
                                         </div>
                                     </div>
@@ -254,7 +254,7 @@
                                     @if($data->image == NULL)
                                         <img src="{{ asset('img/no-image.png') }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @else
-                                        <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
+                                        <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="card-img-top img-fluid" alt="Header {{$data->nama}}">
                                     @endif
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title text-center">{{$data->nama}}</h5>
@@ -270,7 +270,7 @@
                                         <div class="btn-toolbar justify-content-center mt-auto" role="toolbar" aria-label="Toolbar with button groups">
                                             <div class="btn-group" role="group" aria-label="First group">
                                                 <button class="btn btn-outline-primary"><a href="{{$data->tautan}}" class="nav-link">Tautan</a></button>
-                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>    
+                                                <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
                                             </div>
                                         </div>
                                     </div>

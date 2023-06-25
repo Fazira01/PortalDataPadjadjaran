@@ -25,7 +25,7 @@ div.scroll {
                                 @if(Auth::user()->image == NULL)
                                 <img src="{{ asset('img/profile.jpg') }}" alt="Foto Profil {{ Auth::user()->name }}" width="150" height="150" class="img-thumbnail rounded-circle">
                                 @else
-                                <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . Auth::user()->image) }}" alt="Foto Profil {{ Auth::user()->name }}" width="150" height="150" class="img-thumbnail rounded-circle">
+                                <img src="{{ asset('https://pd-unpad.site/storage/' . Auth::user()->image) }}" alt="Foto Profil {{ Auth::user()->name }}" width="150" height="150" class="img-thumbnail rounded-circle">
                                 @endif
                             </div>
                             <div class="text-break">
@@ -46,7 +46,7 @@ div.scroll {
                                         @else
                                         <div class="me-2 mb-2"><i class="fa-regular fa-id-card"></i></div>
                                         <div class="me-2 mb-2">{{ Auth::user()->npm}}</div>
-                                        @endif    
+                                        @endif
                                     </div>
                                 </p>
                             </div>
@@ -129,7 +129,7 @@ div.scroll {
                                                                     @if($data->image == NULL)
                                                                     <img src="{{ asset('img/no-image.png') }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @else
-                                                                    <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
+                                                                    <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @endif
                                                                 </div>
                                                                 <div class="col-12 col-lg-9 d-flex flex-column align-content-between">
@@ -151,7 +151,7 @@ div.scroll {
                                                                         <div class="col-12 col-lg-3 d-flex justify-content-center align-items-end">
                                                                             <div class="btn-group-vertical">
                                                                                 <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
-                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>    
+                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>
                                                                                 <button class="btn btn-outline-danger"><a href="/deleteData/{{$data->id}}" class="nav-link">Hapus</a></button>
                                                                             </div>
                                                                         </div>
@@ -178,7 +178,7 @@ div.scroll {
                                                                     @if($data->image == NULL)
                                                                     <img src="{{ asset('img/no-image.png') }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @else
-                                                                    <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
+                                                                    <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @endif
                                                                 </div>
                                                                 <div class="col-12 col-lg-9 d-flex flex-column align-content-between">
@@ -198,7 +198,7 @@ div.scroll {
                                                                         <div class="col-12 col-lg-3 d-flex justify-content-center align-items-end">
                                                                             <div class="btn-group-vertical">
                                                                                 <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
-                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>    
+                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>
                                                                                 <button class="btn btn-danger"><a href="/deleteData/{{$data->id}}" class="nav-link">Hapus</a></button>
                                                                             </div>
                                                                         </div>
@@ -225,7 +225,7 @@ div.scroll {
                                                                     @if($data->image == NULL)
                                                                     <img src="{{ asset('img/no-image.png') }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @else
-                                                                    <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
+                                                                    <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @endif
                                                                 </div>
                                                                 <div class="col-12 col-lg-9 d-flex flex-column align-content-between">
@@ -245,7 +245,7 @@ div.scroll {
                                                                         <div class="col-12 col-lg-3 d-flex justify-content-center align-items-end">
                                                                             <div class="btn-group-vertical">
                                                                                 <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
-                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>    
+                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>
                                                                                 <button class="btn btn-outline-danger"><a href="/deleteData/{{$data->id}}" class="nav-link">Hapus</a></button>
                                                                             </div>
                                                                         </div>
@@ -272,7 +272,7 @@ div.scroll {
                                                                     @if($data->image == NULL)
                                                                     <img src="{{ asset('img/no-image.png') }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @else
-                                                                    <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
+                                                                    <img src="{{ asset('https://pd-unpad.site/storage/' . $data->image) }}" class="img-fluid rounded-start" alt="Header {{$data->nama}}">
                                                                     @endif
                                                                 </div>
                                                                 <div class="col-12 col-lg-9 d-flex flex-column align-content-between">
@@ -292,7 +292,7 @@ div.scroll {
                                                                         <div class="col-12 col-lg-3 d-flex justify-content-center align-items-end">
                                                                             <div class="btn-group-vertical">
                                                                                 <button class="btn btn-outline-primary"><a href="{{ route('katalog.detail', $data->id) }}" class="nav-link">Lihat Detail</a></button>
-                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>    
+                                                                                <button class="btn btn-outline-primary"><a href="{{ route('edit.data', $data->id) }}" class="nav-link">Update</a></button>
                                                                                 <button class="btn btn-outline-danger"><a href="/deleteData/{{$data->id}}" class="nav-link">Hapus</a></button>
                                                                             </div>
                                                                         </div>
@@ -322,5 +322,5 @@ div.scroll {
             </div>
         </div>
     </div>
-</div>  
+</div>
 @endsection

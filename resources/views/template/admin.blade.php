@@ -15,7 +15,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/c3c1353c4c.js" crossorigin="anonymous"></script>
         <script src="{{ asset('js/app.js') }}" defer></script>
-        
+
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/logo/bem-kema2.png') }}">
         <link rel="manifest" href="/site.webmanifest">
 
@@ -65,7 +65,7 @@
                                 @if(Auth::user()->image == NULL)
                                     <img src="{{ asset('img/profile.jpg') }}" width="64" height="64" alt="Foto Profil {{ Auth::user()->name }}"  class="img-thumbnail rounded-circle me-2">
                                 @else
-                                    <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . Auth::user()->image) }}" height="64" width="64" alt="Foto Profil {{ Auth::user()->name }}" class="img-thumbnail rounded-circle me-2">
+                                    <img src="{{ asset('https://pd-unpad.site/storage/' . Auth::user()->image) }}" height="64" width="64" alt="Foto Profil {{ Auth::user()->name }}" class="img-thumbnail rounded-circle me-2">
                                 @endif
                                 {{ Auth::user()->name }}
                             </a>

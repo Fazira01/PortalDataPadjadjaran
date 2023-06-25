@@ -17,7 +17,7 @@
         <script src="https://kit.fontawesome.com/c3c1353c4c.js" crossorigin="anonymous"></script>
         <script src="{{ asset('js/app.js') }}" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-        
+
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/logo/bem-kema2.png') }}">
         <link rel="manifest" href="/site.webmanifest">
 
@@ -43,7 +43,7 @@
             @yield('css');
         </style>
         <script>
-            
+
         </script>
     </head>
     <body class="d-flex flex-column">
@@ -106,14 +106,14 @@
                                     @if(Auth::user()->image == NULL)
                                     <img src="{{ asset('img/profile.jpg') }}" alt="Foto Profil {{ Auth::user()->name }}" width="42" height="42" class="rounded-circle me-2">
                                     @else
-                                    <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . Auth::user()->image) }}" alt="Foto Profil {{ Auth::user()->name }}" width="42" height="42" class="rounded-circle me-2">
+                                    <img src="{{ asset('https://pd-unpad.site/storage/' . Auth::user()->image) }}" alt="Foto Profil {{ Auth::user()->name }}" width="42" height="42" class="rounded-circle me-2">
                                     @endif
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown" style="width: 250px;">
                                     @if(Auth::user()->image == NULL)
                                         <img src="{{ asset('img/profile.jpg') }}" width="64" height="64" alt="Foto Profil {{ Auth::user()->name }}"  class="rounded-circle mx-auto d-block">
                                     @else
-                                        <img src="{{ asset('https://satudatapadjadjaran.site/storage/' . Auth::user()->image) }}" height="64" width="64" alt="Foto Profil {{ Auth::user()->name }}" class="rounded-circle mx-auto d-block">
+                                        <img src="{{ asset('https://pd-unpad.site/storage/' . Auth::user()->image) }}" height="64" width="64" alt="Foto Profil {{ Auth::user()->name }}" class="rounded-circle mx-auto d-block">
                                     @endif
                                     <strong class="dropdown-item fw-bold disabled text-dark text-center">{{ Auth::user()->name}}</strong>
                                     <hr>
