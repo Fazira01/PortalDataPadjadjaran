@@ -91,7 +91,7 @@ div.scroll {
 
                                         <div class="mb-3">
                                             <label class="form-label" for="image">Foto Profil</label>
-                                            <input type="file" name="image" value="{{ Auth::user()->image }}" class="form-control" placeholder="foto" aria-describedby="imageHelp">
+                                            <input type="file" name="image" value="{{ Auth::user()->image }}" class="form-control" placeholder="foto" aria-describedby="imageHelp" accept="image/*">
                                             <p class="text-danger">{{ $errors->first("image") }}</p>
                                             <div id="imageHelp" class="form-text">
                                                 Gunakan gambar dengan rasio 1 : 1 untuk mendapatkan hasil yang maksimal
@@ -100,7 +100,7 @@ div.scroll {
 
                                         <div class="mb-3">
                                             <label class="form-label" for="password">Password</label>
-                                            <input value="" name="password" id="password" type="password" class="form-control" placeholder="Masukkan password anda" required>
+                                            <input value="" name="password" id="password" type="password" class="form-control" placeholder="Masukkan password anda">
                                             <p class="text-danger">{{ $errors->first("password") }}</p>
                                         </div>
 

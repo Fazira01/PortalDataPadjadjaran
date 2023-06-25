@@ -52,7 +52,7 @@ class HomeController extends Controller
                 ->count();
         return view('home', ['datas'=>$datas], compact('infografis', 'kajian', 'database', 'arsip', 'kontributor', 'total'));
     }
-    
+
     public function about()
     {
         return view('about');
@@ -78,28 +78,27 @@ class HomeController extends Controller
         return view("profile", compact("user"), ['datas'=>$datas->sortByDesc('created_at')]);
     }
 
-    public function updateProfile(Request $request) 
+    public function updateProfile(Request $request)
     {
-        toast('Profil baru berhasil disimpan!','success');
         $user = User::where('id', Auth::user()->id)->first();
-        if ($user->password != $request->password) {
-            $user->update([
-                'name' => $request->name,
-                'email' => $request->email,
-                'image' => $request->file('image')->store('img/profile', 'public'),
-                'password' => Hash::make($request->password),
-            ]);
-        }
-        else {
-            $user->update([
-                'name' => $request->name,
-                'email' => $request->email,
-                'image' => $request->file('image')->store('img/profile', 'public'),
-                'password' => Hash::make($request->password),
-            ]);
-        }
 
-        return redirect(route("profile.edit", $user->npm))->with(["success" => "User berhasil diupdate!"]);
+        $this->validate($request, [
+            'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:4096',
+        ]);
+
+        try{
+            $user->update([
+                'name' => $request->name,
+                'email' => $request->email,
+                'image' => $request->file('image')->store('img/profile', 'public'),
+                'password' => Hash::make($request->password),
+            ]);
+            toast('Profil baru berhasil disimpan!','success');
+            return redirect(route("profile.edit", $user->npm))->with(["success" => "User berhasil diupdate!"]);
+        }
+        catch (Exception $e) {
+            toast('Terjadi kesalahan!','error');
+        }
     }
 
     public function katalog()
